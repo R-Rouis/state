@@ -1,0 +1,89 @@
+@import 'https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto';
+.App {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    color:#F5D6BA;
+    
+  }
+  @media screen and (max-width: 980px) {
+    .App {
+      flex-direction: column; } }
+  .image {
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 40vw; 
+    }
+        
+    .Fullname {
+      
+      font-size: 6vw;
+      font-family: 'Abril Fatface';
+      margin-bottom: 4vw;
+      margin-left:60px ;
+      margin-top: 150px;
+      background-image: -webkit-linear-gradient(left, rgb(186, 93, 189) , rgb(8, 2, 39));
+      background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
+    }
+    
+    .Bio {
+      font-size: 20px;
+      line-height: 1.8;
+      margin-bottom: 3vw;
+      opacity: .4;
+      color:#151531;
+      margin-left:60px ;
+
+    }
+    .quote {
+      margin-top: auto;
+        font-size: 36px;
+        font-family: 'Abril Fatface';
+        font-style: italic;
+        line-height: 1.4;
+        margin-bottom: .6em;
+        background-image: -webkit-linear-gradient(left, rgb(16, 19, 197) , rgb(151, 86, 153));
+      background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+    text-shadow: 5px 2px 2px 5px #2C2C54;
+      }
+    .source{
+      font-family: 'Times', serif;
+      text-align: right;
+      font-size: 22px;  
+      font-style: italic;
+      opacity: .4;
+      margin-right: 100px;
+
+      }
+      .btn{
+        background-color: #2C2C54;
+        color: blanchedalmond;
+        font-size: 20px;
+        font-weight: lighter;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px 60px;
+        border-radius: 5px;
+        margin: 40px;
+        margin-left: 150px;
+        cursor: pointer;
+        text-align: center;
+        
+
+      }
+      .counter{
+        font-family: 'Abril Fatface';
+        text-align: center;
+        color:#2C2C54
+      }
